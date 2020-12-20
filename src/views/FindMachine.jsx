@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Alert from '@material-ui/lab/alert';
+import {Alert} from '@material-ui/lab';
 import Card from '@material-ui/core/Card';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Button from '@material-ui/core/Button';
