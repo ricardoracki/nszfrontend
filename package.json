@@ -2,6 +2,7 @@
   "name": "web",
   "version": "0.1.0",
   "private": true,
+  "node": "13.14.0",
   "dependencies": {
     "@material-ui/core": "^4.11.2",
     "@material-ui/icons": "^4.11.2",
@@ -28,7 +29,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "postbuild": "git add . && git commit -m \"Automatic Deploy\" && git push"
+    "deploy": "git add . && git commit -m \"Automatic Deploy\" && git push"
   },
   "eslintConfig": {
     "extends": [
