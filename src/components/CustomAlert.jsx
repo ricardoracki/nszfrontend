@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Alert from '@material-ui/lab/alert';
+import {Alert} from '@material-ui/lab';
 import CloseIcon from '@material-ui/icons/Close';
 import IconButton from '@material-ui/core/IconButton';
 import { makeStyles } from '@material-ui/core';
